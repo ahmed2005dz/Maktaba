@@ -44,6 +44,7 @@ class BookRepository {
             title = "Kotlin in Action",
             nbPages = 360
         ),
+
         Book(
             isbn = "978-0-321-35668-0",
             title = "Effective Java",
