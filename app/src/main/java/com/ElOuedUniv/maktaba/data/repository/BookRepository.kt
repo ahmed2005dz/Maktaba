@@ -47,7 +47,7 @@ class BookRepository {
         Book(
             isbn = "978-0-321-35668-0",
             title = "Effective Java",
-            nbPages = 416
+            nbPages = 415
         )
     )
 
