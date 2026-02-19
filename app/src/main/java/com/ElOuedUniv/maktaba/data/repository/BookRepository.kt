@@ -7,7 +7,33 @@ import com.ElOuedUniv.maktaba.data.model.Book
  * This follows the Repository pattern to abstract data sources
  */
 class BookRepository {
-
+    private val booksList = listOf(
+        Book(
+            isbn = "978-0-13-235088-4",
+            title = "Clean Code",
+            nbPages = 464
+        ),
+        Book(
+            isbn = "978-0-201-61622-4",
+            title = "The Pragmatic Programmer",
+            nbPages = 352
+        ),
+        Book(
+            isbn = "978-0-596-52068-7",
+            title = "Head First Design Patterns",
+            nbPages = 694
+        ),
+        Book(
+            isbn = "978-1-491-94708-5",
+            title = "Kotlin in Action",
+            nbPages = 360
+        ),
+        Book(
+            isbn = "978-0-321-35668-0",
+            title = "Effective Java",
+            nbPages = 416
+        )
+    )
     /**
      * TODO for Students (TP1 - Exercise 1):
      * Complete the book information for each book in the list below.
