@@ -7,6 +7,6 @@ interface BookRepository {
 
     fun getAllBooks(): List<Book>
 
-    fun getBookByIsbn(isbn: String): Book?
+    fun getBookByIsbn(isbn: String): Book
 
 }
